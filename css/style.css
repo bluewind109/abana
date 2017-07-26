@@ -1,0 +1,54 @@
+.navbar {
+	margin: 0 auto;
+	padding-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#toolbar .navbar-default {
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+	box-shadow: 0 0;
+}
+
+.breadcrumb > a.breadcrumb-item::after {
+	content:"  /  ";
+}
+
+.breadcrumb {
+	background-color: #222;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+hr {
+	border-color: #536878;
+}
+
+.firstchar {
+	color: grey;
+	float: left;
+	font-family: Georgia;
+	font-size: 35px;
+	line-height: 30px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+
+#text-carousel > .carousel-indicators {
+    bottom: 0;
+}
+
+#text-carousel > .carousel-caption{
+    color:#000;
+    position: static;
+}
+
+#footer-nav {
+	border-bottom-left-radius: 0:
+	border-bottom-right-radius: 0; 
+}
+
